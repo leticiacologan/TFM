@@ -1,7 +1,14 @@
 # Trabajo Fin de Máster
 
-Este repositorio contiene el código desarrollado para el Trabajo de Fin de Máster **"Segmentación automática de paneles solares en imágenes aéreas mediante arquitecturas U-Net"**. El objetivo principal es detectar y segmentar paneles solares en tejados a partir de imágenes satelitales usando redes convolucionales.
+El siguiente proyecto ha sido desarrollado en el marco del **Trabajo de Fin de Máster** para la obtención del título:
 
+> **Máster Universitario en Big Data y Analítica Avanzada**  
+> **Universidad Pontificia Comillas (ICAI)**
+
+**Autora**: Leticia Cólogan Valero  
+📧 leticiacologan@alu.comillas.edu
+
+Este repositorio contiene el código desarrollado para el Trabajo de Fin de Máster **"Segmentación automática de paneles solares en imágenes aéreas mediante arquitecturas U-Net"**. El objetivo principal es detectar y segmentar paneles solares en tejados a partir de imágenes satelitales usando redes convolucionales.
 
 ## 🧠 Modelos implementados
 
@@ -18,6 +25,14 @@ Este repositorio contiene el código desarrollado para el Trabajo de Fin de Más
 | U-Net + ResNet34    | 0.8653     | 0.7709    | ~23M       | Medio  | Converge rápido, pero peor generaliza |
 
 También se realizó un test real sobre imágenes del municipio de **Molina de Segura**, donde se evaluó la capacidad de generalización de los modelos.
+
+## 🔍 Visualización y análisis
+
+El repositorio incluye:
+- Visualizaciones de segmentación sobre nuevas imágenes.
+- Activaciones con **Grad-CAM** para interpretar la atención del modelo.
+- Comparativas cuantitativas y cualitativas.
+
 
 ## 🔍 Visualización y análisis
 
